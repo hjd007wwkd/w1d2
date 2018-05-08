@@ -11,7 +11,7 @@ function printInFrame(list) {
 }
 
 function repeat(str, times) {
-  var result = str;
+  var result = "";
 
   for (var i = 0; i < times; i++) {
     result += str;
